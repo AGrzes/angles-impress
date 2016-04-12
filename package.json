@@ -1,14 +1,31 @@
 {
-  "name": "angles-impress",
-  "version": "1.0.0",
-  "description": "A script for laying out impress presentations using angles",
-  "main": "angles.js",
-  "scripts": {
-    "test": "mocha"
-  },
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "trumpet": "^1.7.2"
-  }
+    "name": "angles-impress",
+    "version": "1.0.0",
+    "description": "A script for laying out impress presentations using angles",
+    "main": "angles.js",
+    "keywords": [
+        "impress.js",
+        "hex",
+        "layout"
+    ],
+    "bin": {
+        "angles": "./script.js"
+    },
+    "scripts": {
+        "test": "mocha"
+    },
+    "bugs": "https://github.com/AGrzes/angles-impress/issues",
+    "author": "Grzegorz Abramczyk <abramczykg@gmail.com>",
+    "contributors": [],
+    "repository": {
+      "type": "git",
+      "url": "git@github.com:AGrzes/angles-impress.git"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "trumpet": "^1.7.2"
+    },
+    "devDependencies": {
+      "mocha": "^2.4.5"
+    }
 }
